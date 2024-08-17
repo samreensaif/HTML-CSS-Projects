@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="heading"> 
+            <span class="text"> Periodic Table Of Elements </span>
+        </div>
+        
+        <p>
+            Name Of Elements: <input class="output" name="display" type="text"> 
+        
+        </p>
+        <div class="H">
+
+            <button id="seagrean" onclick="setElement('Hydrogen (H) - Atomic Number: 1')">H</button>
+        </div>
+
+        <div class="He">
+
+            <button id="purple" onclick="setElement('Helium (He) - Atomic Number: 2')">He</button>
+        </div>
+
+        <div class="div1">
+
+            <button id="yellow" onclick="setElement('Potassium (K) - Atomic Number: 19')">K</button>
+            <button id="brown" onclick="setElement('Calcium (Ca) - Atomic Number: 20')">Ca</button>
+            <button onclick="setElement('Scandium (Sc) - Atomic Number: 21')">Sc</button>
+            <button onclick="setElement('Titanium (Ti) - Atomic Number: 22')">Ti</button>
+            <button onclick="setElement('Vanadium (V) - Atomic Number: 23')">V</button>
+            <button onclick="setElement('Chromium (Cr) - Atomic Number: 24')">Cr</button>
+            <button onclick="setElement('Manganese (Mn) - Atomic Number: 25')">Mn</button>
+            <button onclick="setElement('Iron (Fe) - Atomic Number: 26')">Fe</button>
+            <button onclick="setElement('Cobalt (Co) - Atomic Number: 27')">Co</button>
+            <button onclick="setElement('Nickel (Ni) - Atomic Number: 28')">Ni</button>
+            <button onclick="setElement('Copper (Cu) - Atomic Number: 29')">Cu</button>
+            <button onclick="setElement('Zinc (Zn) - Atomic Number: 30')">Zn</button>
+            <button id="dBlue" onclick="setElement('Gallium (Ga) - Atomic Number: 31')">Ga</button>
+            <button id="grey" onclick="setElement('Germanium (Ge) - Atomic Number: 32')">Ge</button>
+            <button id="grey" onclick="setElement('Arsenic (As) - Atomic Number: 33')">As</button>
+            <button id="darkPink" onclick="setElement('Selenium (Se) - Atomic Number: 34')">Se</button>
+            <button id="lightBlue" onclick="setElement('Bromine (Br) - Atomic Number: 35')">Br</button>
+            <button id="purple" onclick="setElement('Krypton (Kr) - Atomic Number: 36')">Kr</button>
+        
+        </div>
+         <div class="div2">
+
+            <button id="yellow" onclick="setElement('Rb')">Rb</button>
+            <button id="brown" onclick="setElement('Hs')">Sr</button>
+            <button onclick="setElement('Hs')">Y</button>
+            <button onclick="setElement('Hs')">Zr</button>
+            <button onclick="setElement('Hs')">Nb</button>
+            <button onclick="setElement('Hs')">Mo</button>
+            <button onclick="setElement('Hs')">Tc</button>
+            <button onclick="setElement('Hs')">Ru</button>
+            <button onclick="setElement('Hs')">Rh</button>
+            <button onclick="setElement('Hs')">Pd</button>
+            <button onclick="setElement('Hs')">Ag</button>
+            <button onclick="setElement('Hs')">Cd</button>
+            <button id="dBlue" onclick="setElement('Hs')">In</button>
+            <button id="dBlue" onclick="setElement('Hs')">Sn</button>
+            <button id="grey" onclick="setElement('Hs')">Sb</button>
+            <button id="grey" onclick="setElement('Hs')">Te</button>
+            <button id="lightBlue" onclick="setElement('Hs')">I</button>
+            <button id="purple" onclick="setElement('Hs')">Xe</button>
+        
+        </div>
+       
+        <div class="div3">
+
+            <button id="yellow"  onclick="setElement('Cs')">Cs</button>
+            <button id="brown"  onclick="setElement('Ba')">Ba</button>
+            <button id="red" class="small"  onclick="setElement('57-71')">57-71</button>
+            <button  onclick="setElement('Hf')">Hf</button>
+            <button  onclick="setElement('Ta')">Ta</button>
+            <button  onclick="setElement('W')">W</button>
+            <button  onclick="setElement('Re')">Re</button>
+            <button  onclick="setElement('Os')">Os</button>
+            <button  onclick="setElement('Ir')">Ir</button>
+            <button  onclick="setElement('Pt')">Pt</button>
+            <button  onclick="setElement('Au')">Au</button>
+            <button  onclick="setElement('Hg')">Hg</button>
+            <button id="dBlue"  onclick="setElement('Tl')">Tl </button>
+            <button id="dBlue"  onclick="setElement('Pb')">Pb</button>
+            <button id="dBlue"  onclick="setElement('Bi')">Bi</button>
+            <button id="grey"  onclick="setElement('Po')">Po</button>
+            <button id="lightBlue"  onclick="setElement('At')">At</button>
+            <button id="purple"  onclick="setElement('Rn')">Rn</button>
+        
+        </div>
+        <div class="div4">
+
+            <button id="yellow" onclick="setElement('Fr')">Fr</button>
+            <button id="brown"  onclick="setElement('Ra')">Ra</button>
+            <button id="green" class="small"  onclick="setElement('89-103')">89-103</button>
+            <button  onclick="setElement('Rf')">Rf</button>
+            <button  onclick="setElement('Db')">Db</button>
+            <button  onclick="setElement('Sg')">Sg</button>
+            <button  onclick="setElement('Bh')">Bh</button>
+            <button  onclick="setElement('Hs')">Hs</button>
+            <button  onclick="setElement('Mt')">Mt</button>
+            <button  onclick="setElement('Ds')">Ds</button>
+            <button  onclick="setElement('Rg')">Rg</button>
+            <button  onclick="setElement('Cn')">Cn</button>
+            <button id="dBlue"  onclick="setElement('Nh')">Nh</button>
+            <button id="dBlue"  onclick="setElement('Fl')">Fl</button>
+            <button id="dBlue"  onclick="setElement('Mc')">Mc</button>
+            <button id="dBlue"  onclick="setElement('Lv')">Lv</button>
+            <button id="lightBlue" onclick="setElement('Ts')">Ts</button>
+            <button id="purple"  onclick="setElement('Og- Oga')">Og</button>
+        
+        </div> 
+
+        <div class="div5">
+
+            <button id="yellow"  onclick="setElement('Sodium (Na) - Atomic Number: 11')">Na</button>
+            <button id="brown"  onclick="setElement('Beryllium (Be) - Atomic Number: 4')">Be</button>
+        </div>
+        <div class="div6">
+            <button id="yellow"  onclick="setElement('Lithium (Li) - Atomic Number: 3')">Li</button>
+            <button id="brown" onclick="setElement('Magnesium (Mg) - Atomic Number: 12')">Mg</button>
+        </div>
+
+        <div class="div7">
+            <button id="dBlue" onclick="setElement('Aluminum (Al) - Atomic Number: 13')">Al</button>
+            <button id="grey" onclick="setElement('Silicon (Si) - Atomic Number: 14')">Si</button>
+            <button id="darkPink" onclick="setElement('Phosphorus (P) - Atomic Number: 15')">P</button>
+            <button id="darkPink" onclick="setElement('Sulfur (S) - Atomic Number: 16')">S</button>
+            <button id="lightBlue" onclick="setElement('Chlorine (Cl) - Atomic Number: 17')">Cl</button>
+            <button id="purple" onclick="setElement('Argon (Ar) - Atomic Number: 18')">Ar</button>
+        </div>
+        <div class="div8">
+
+            <button id="grey" onclick="setElement('Boron (B) - Atomic Number: 5')">B</button>
+            <button id="darkPink" onclick="setElement('Carbon (C) - Atomic Number: 6')">C</button>
+            <button id="darkPink" onclick="setElement('Nitrogen (N) - Atomic Number: 7')">N</button>
+            <button id="darkPink" onclick="setElement('Oxygen (O) - Atomic Number: 8')">O</button>
+            <button id="lightBlue" onclick="setElement('Fluorine (F) - Atomic Number: 9')">F</button>
+            <button id="purple" onclick="setElement('Neon (Ne) - Atomic Number: 10')">Ne</button>
+        </div>
+
+        <div class="div9">
+
+            <button id="red" onclick="setElement('La')">La</button>
+            <button id="red" onclick="setElement('Ce')">Ce</button>
+            <button id="red" onclick="setElement('Pr')">Pr</button>
+            <button id="red">Nd</button>
+            <button id="red">Pm</button>
+            <button id="red">Sm</button>
+            <button id="red">Eu</button>
+            <button id="red">Gd</button>
+            <button id="red">Tb</button>
+            <button id="red">Dy</button>
+            <button id="red">Ho</button>
+            <button id="red">Er</button>
+            <button id="red">Tm</button>
+            <button id="red">Yb</button>
+            <button id="red">Lu</button>
+            
+        
+        </div> 
+        <div class="div10">
+
+            <button id="green">Ac</button>
+            <button id="green">Th</button>
+            <button id="green">Pa</button>
+            <button id="green">U</button>
+            <button id="green">Np</button>
+            <button id="green">Pu</button>
+            <button id="green">Am</button>
+            <button id="green">Cm</button>
+            <button id="green">Bk</button>
+            <button id="green">Cf</button>
+            <button id="green">Es</button>
+            <button id="green">Fm</button>
+            <button id="green">Md</button>
+            <button id="green">No</button>
+            <button id="green">Lr</button>
+            
+        
+        </div> 
+        
+        <input class="one" type="text" value="1">
+        <input class="two" type="text" value="2">
+        <input class="three" type="text" value="3">
+        <input class="four"type="text" value="4">
+        <input class="five"type="text" value="5">
+        <input class="six"type="text" value="6">
+        <input class="seven"type="text" value="7">
+        <input class="one1" type="text" value="1">
+        <input class="two2" type="text" value="2">
+        <input class="three3" type="text" value="3">
+        <input class="four4"type="text" value="4">
+        <input class="five5"type="text" value="5">
+        <input class="six6"type="text" value="6">
+        <input class="seven7"type="text" value="7">
+        <input class="eight"type="text" value="8">
+        <input class="nine"type="text" value="9">
+        <input class="ten"type="text" value="10">
+        <input class="eleven"type="text" value="11">
+        <input class="twelve"type="text" value="12">
+        <input class="thirteen"type="text" value="13">
+        <input class="fourteen"type="text" value="14">
+        <input class="fifteen"type="text" value="15">
+        <input class="sixteen"type="text" value="16">
+        <input class="seventeen"type="text" value="17">
+        <input class="eighteen"type="text" value="18">
+        
+       
+    </div>
+    <script>
+        function setElement(element) {
+            document.querySelector('input[name="display"]').value = element;
+        }
+    </script>
+</body>
+</html>
