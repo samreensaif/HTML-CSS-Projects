@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    background-color: #74bbea;
+    height:110vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1{
+position: absolute;
+color: #333333;
+top:50px;
+right:440px;
+font-family: "Poppins", sans-serif;
+font-size: 50px; 
+
+
+}
+
+.cal{
+    position: absolute;
+    padding:20px;
+    background-color: #000000;
+    border-radius: 20px;
+    display: flex;
+    bottom:50px;
+   
+}
+
+.cal form input{
+    
+    height:60px;
+    width:60px;
+    margin: 7px;
+    background: #333333;
+    border:none ;
+    border-radius: 50px;
+    font-size: 20px;;
+    color:rgb(220, 220, 228);
+    cursor: pointer;
+    
+
+}
+
+.cal form .operator{
+
+    background-color: #ff9500;
+    color:black
+}
+
+.cal form .butt{
+    display: flex;
+}
+
+.cal form .zero{
+
+    flex:1
+
+}
+.cal form .light .lgrey{
+
+    background-color: #AAAAAA;
+    color:#000000
+
+}
+
+
+.cal form .screen{
+
+    display:flex;
+    
+}
+
+.cal form .screen .scr{
+
+    flex:1;
+    background: #AAAAAA;
+    color:#000000;
+    text-align: right;
+    padding-right:10px ;
+    font-size: 50px;
+}
