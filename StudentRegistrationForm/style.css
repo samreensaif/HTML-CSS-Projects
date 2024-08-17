@@ -1,0 +1,157 @@
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+.form-fields-color{
+    background-color: #FFE082;
+    border-radius: 5px;
+    border:none;
+    height:20px;
+    width:200px
+}
+.form-text-color{
+    color: rgb(44, 44, 219);
+    padding:5px;
+}
+
+button{
+    background-color: #d32f2f;
+}
+.container{
+    background-color: palegoldenrod;
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    flex-direction: column;
+    background-color: #FAF0E6;
+    height:1040px;
+    width:700px;
+    border-radius: 7px;
+    border: 2px solid black;
+    margin-top:-400px;
+    outline:2px solid darkgreen;
+    outline-offset: 10px;
+    
+}
+#heading{
+    text-align: center;
+    margin:20px;
+    box-sizing: border-box;
+    color: #FFE082;
+    border-radius: 7px;
+    text-decoration: underline;;
+    text-decoration-style: double;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
+}
+p{
+    padding:20px;
+
+}
+ 
+
+#form-body form {
+    /* background-color: yellow; */
+    height:530px;
+    border-radius: 7px;
+    
+}
+
+label{
+    padding:10px;
+    
+}
+
+input[type="radio"] {
+    accent-color: #FFE082;
+ }
+
+ input[type="checkbox"] {
+    accent-color: #FFE082;
+ }
+ #address{
+    margin-left:15px;
+    width:565px;
+ }
+ #city{
+    margin-left: 50px;
+ }
+ #state{
+    margin-left: px;
+ }
+
+ #zipCode{
+    margin-left: 7px;
+    width:213px;
+ }
+ #country{
+    margin-left: 20px;
+    width: 220px;
+}
+#city{
+    height:30px;
+    width:220px;
+    margin-left:40px;
+}
+#state{
+    height:30px;
+    margin-left: 40px;
+    width: 230px;
+}
+table,th,td{
+    box-sizing: border-box;
+    
+}
+
+
+
+table td input{
+    
+    background-color: #FFE082;
+    border: none;
+    height:10px;
+    border-radius:5px ;
+    color:rgb(44, 44, 219);
+    padding:10px;
+    width:155px;
+    
+    
+}
+
+#button{
+    background-color: #FFE082;
+    font-size: medium; 
+    color: rgb(44, 44, 219);
+    border:2px solid dark blue;
+    width:80px;
+    height:30px;
+    margin-left:200px;
+    margin-top: 30px;
+    border-radius: 7px;
+
+}
+
+#button1 {
+    display: inline-block; /* Ensures the link behaves like a block element */
+    width: 80px;
+    height: 27px;
+    font-size: large; /* Adjust font size as needed */
+    background-color: #FFE082;
+    color: rgb(44, 44, 219);
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 0px;
+    border-radius: 7px;
+    text-align:center; /* Center text horizontally */
+    line-height: 30px; /* Center text vertically */
+    text-decoration: none; /* Remove underline */
+
+}
+

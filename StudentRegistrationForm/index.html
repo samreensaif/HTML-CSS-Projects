@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="main">
+            <div id="heading">
+                <h1>Student Registration Form</h1>
+            </div>
+            <div id="form-body">
+
+                <form>
+                  <fieldset> <legend style="margin:20px;"><b>Personal Information:</b> </legend>
+                    
+                    <label for="name"><b>Full Name:</b></label>
+                    <input class="n form-fields-color form-text-color" autocomplete="off" type="text" name="fullname" id="name" maxlength="20" required> 
+
+                    
+                    <label for="fname"><b>Father's Name:</b></label>
+                    <input class="form-fields-color form-text-color" autocomplete="off" type="text" name="fathername" id="fname" 
+                    style="width:220px" required><br><br>
+
+                    <label for="dob" style="margin-right: 27px;"><b>D.O.B:</b></label>
+                    <input  class=" form-fields-color form-text-color" type="date" name="dob" id="dob"> 
+
+                    <label >
+                    <p style="display: inline;  " > <b>Gender:</b>
+                        <label for="m" style="margin-left: 50px;"><b>Male</b></label>            
+                        <input type="radio" name="gender" id="m" value="m" /> 
+                        <label for="f"><b>Female</b></label>
+                        <input type="radio" name="gender" id="f" value="f" />
+                    </p>
+                </label><br><br>
+
+
+                <label for="email" style="margin-right: 27px;"><b>E-mail</b></label>
+                <input  type="email" id="email" class="form-fields-color form-text-color" autocomplete="off">
+
+                <label for="tel" style="margin-left: 25px;"><b>Mobile #:</b> </label>
+                <input type="text" id="tel" class="form-fields-color form-text-color" maxlength="12" placeholder="1234-1234567" title="Please enter a phone number in the format 1234-1234567" pattern ="^\d{4}-\d{7}$" required style="width:220px;margin-left: 20px;"><br><br>
+            </fieldset> <br> 
+            
+            <fieldset>
+                <legend style="margin:20px"><b>Mailing Address:</b> </legend>
+                <label for="address"><b>Address:</b></label>
+                    <input class="form-fields-color form-text-color" autocomplete="off" type="text" name="address" id="address" required><br><br>
+                    
+                <label for="city"><b>City: </b></label>
+                <select  class="form-fields-color form-text-color" name="city" id="city">
+                    <option value="kar">Karachi </option>
+                    <option value="hyd">Hyerabad</option>
+                    <option value="lhr">Lahore</option>
+                    <option value="isb">Islamabad</option>
+                    <option value="que">Quetta</option>
+                    <option value="psw">Pishawar</option>
+                    <option value="mul">Multan</option>
+                </select>
+                    
+                <label for="state" style="margin-left:20px"><b>State:</b></label>
+                <select  class="form-fields-color form-text-color" name="state" id="state">
+                    <option value="Sindh">Sindh</option>
+                    <option value="pun">Punjab</option>
+                    <option value="bal">Balochistan</option>
+                    <option value="kpk">KhyberPKhwa</option>
+                    
+                </select><br><br>
+
+
+                    <label for="zipCode"><b>Zip Code:</b></label>
+                    <input class="form-fields-color form-text-color" type="number" name="zipCode" id="zipCode" >
+
+                    <label for="country" style ="margin-left:10px;" ><b>Country:</b></label>
+                    <input class="form-fields-color form-text-color" type="text" name="country" id="country" ><br><br>
+            
+                </fieldset>
+                <br>
+
+                <fieldset>
+
+                    <legend style="margin:20px"><b>Interest: </b></legend>
+                    
+                    <label for="books"><b>Reading Books</b></label>
+                    <input type="checkbox" name="book" id="books"><br><br>
+
+                    <label for="cycle"><b>Cycling</b></label>
+                    <input type="checkbox" name="cycle" id="cycle"><br><br>
+
+                    <label for="travel"><b>Travelling</b></label>
+                    <input type="checkbox" name="travel" id="travel"><br><br>
+
+                    <label for="cook"><b>Cooking</b></label>
+                    <input type="checkbox" name="cook" id="cook"><br><br>
+
+                    <label for="sing"><b>Singing</b></label>
+                    <input type="checkbox" name="sing" id="sing"><br><br>
+
+                    <label for="paint"><b>Painting</b></label>
+                    <input type="checkbox" name="paint" id="paint"><br><br>
+                   
+                </fieldset>
+
+                <fieldset>
+
+                
+                <legend style="margin:20px"><b>Education: </b></legend>
+                <table cellpadding="20" cellspacing="5" >
+                    <tr>
+                        <td align="center"><b>S.No.</b></td>
+                        <td align="center"><b>Examination</b></td>
+                        <td align="center"><b>Board</b></td>
+                        <td align="center"><b>Percentage</b></td>
+                        <td align="center"><b>Year of Passing</b></td>
+                    </tr>
+                    <tr>
+                        <td align="center">1</td>
+                        <td>Matriculation</td>
+                        <td><input type="text" name="matricBoard" maxlength="20" /></td>
+                        <td><input type="text" name="matricPercentage" maxlength="10" pattern="^\d{2}%$" title="Must type % sign" required /></td>
+                        <td><input type="date" name="matrixYrOfPassing" maxlength="10" /></td>
+                     
+                    </tr>
+
+                     
+                    <tr>
+                        <td align="center">2</td>
+                        <td>Intermediate</td>
+                        <td><input type="text" name="interBoard" maxlength="20" /></td>
+                        <td><input type="text" name="interPercentage" maxlength="10" pattern="^\d{2}%$" title="Must type % sign" required/></td>
+                        <td><input type="date" name="inter-YrOfPassing" maxlength="10" /></td>
+                        </tr>
+                        
+                        <tr>
+                        <td align="center">3</td>
+                        <td>Graduation</td>
+                        <td><input type="text" name="Graduation_Board" maxlength="20" /></td>
+                        <td><input type="text" name="Graduation_Percentage" maxlength="10" pattern="^\d{2}%$" title="Must type % sign" required/></td>
+                        <td><input type="date" name="Graduation_YrOfPassing" maxlength="10" /></td>
+                        </tr>
+
+                       
+                </table><br><br>
+                
+            </fieldset>
+
+            <input type="reset" id="button">
+            <!-- <input  type="submit" id="button"> -->
+            <a href="confirmation.html" id="button1">Submit</a>
+                    
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+<!-- <script src="main.js"></script> -->
+
+</body>
+</html>
