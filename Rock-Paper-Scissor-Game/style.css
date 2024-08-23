@@ -1,0 +1,162 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+body{
+    height:100vh;
+    width:100%;
+    background-color:#182244;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.firstDiv{
+    height:200px;
+    width:100%;
+    font-size: 50px;
+    color:#d96b8e;
+    text-align: center;
+    background-color: #182244;
+    text-decoration:underline;
+    margin-top:50px;
+}
+
+.secondDiv{
+    height:200px;
+    width:100%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+.thirdDiv{
+    height:100px;
+    width:100%;
+    font-size: 50px;
+    color:#d96b8e;
+    text-align: center;
+    background-color: #182244;
+    margin-bottom:100px;
+}
+
+#rock{
+   height:150px;
+   width:150px;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+ }
+
+ .firstBtn{
+
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    border: 10px solid #ec9e0f;
+    background-image: url("rock1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    transition: all 1s ease;
+    
+    /* &:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 0 0 25px 10px rgba(255, 255, 0, 0.8);
+    }  */
+ }
+
+#paper{
+
+   height:150px;
+   width:150px;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+ }
+.secondBtn{
+
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    border: 10px solid #d91b5c;
+    background-image: url("rock-paper-scissors-emoji-cartoon-019-64.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    transition: all 1s ease;
+
+}
+
+#scissor{
+    height:150px;
+    width:150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+  }
+.thirdBtn{
+
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    border: 10px solid #4966f4;
+    
+    background-image: url("scissor1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    transition: all 1s ease;
+}
+
+/* comp button */
+
+
+#compSelection{
+    height:150px;
+    width:150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+  }
+.comp{
+
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    border: 10px solid #4966f4;
+}
+
+#compSelection p{
+
+    color:white;
+    font-size: 21px;
+    text-align: center;
+    width:150px;
+    height:30px;
+}
+
+.btn{
+
+    background-color: transparent;
+    border:none;
+    font-size: x-large;
+    color:white;
+    cursor: pointer;
+
+}
