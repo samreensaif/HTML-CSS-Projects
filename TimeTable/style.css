@@ -1,0 +1,85 @@
+
+ body{
+   background-image:linear-gradient(180deg,rgba(175, 88, 116, 0.589), rgba(219, 118, 150, 0.836) ) ,url(pexels-iriser-1408221.jpg);
+    height:100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+th{
+    font-size: 20px;
+    width: 500px;
+    height:50px;
+    
+ h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+ }   
+}
+ th,td{
+    
+    border:3px solid black;
+    font-size: 25px;
+ }
+table{
+    width: 1200px;
+    height:500px;
+    background-color: rgb(224, 236, 224);
+    border:3px solid ;
+    font-size: 30px;
+    padding: 10px;
+    border-collapse: collapse;
+    outline: 10px ridge #acd6f1;
+}
+
+thead{
+  background-color:  rgb(191, 233, 191);;
+}
+
+  td,th {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #fruit{
+    background-color: #acd6f1;
+  }
+  #hpe{
+    background-color: #e4b6b6;
+  }
+  #math{
+    background-color: rgb(180, 231, 231);
+  }
+  #lunch{
+    background-color: rgb(185, 241, 185);
+  }
+  #mMath{
+    background-color: lightsteelblue;
+  }
+  #read{
+background-color:#f3d35e; ;
+  }
+  #write{
+    background-color: burlywood;
+  }
+
+  #spell{
+    background-color: rgb(236, 179, 236);
+  }
+  #is{
+    background-color:rgb(71, 222, 241) ;
+  }
+  #rec{
+background-color: #f19ab6;
+  }
+  #music,#art,#lang{
+background-color:#F3CECE;
+  }
+  #or{
+    background-color: #e98478;
+  }
